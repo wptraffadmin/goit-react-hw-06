@@ -1,7 +1,7 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik'; // Імпорт Formik
 import * as Yup from 'yup'; // Імпорт Yup для валідації
 import { useDispatch } from 'react-redux'; // Імпорт хука для екшенів
-import { addContact } from '../../reduxx/contactsSlice'; // Імпорт екшену
+import { addContact } from '../../redux/contactsSlice'; // Імпорт екшену
 import styles from './ContactForm.module.css'; // Імпорт стилів
 
 const ContactForm = () => {

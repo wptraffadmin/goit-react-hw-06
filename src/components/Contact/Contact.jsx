@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; // Імпорт PropTypes для валідації пропсів
 import { useDispatch } from 'react-redux'; // Імпорт хука
-import { deleteContact } from '../../reduxx/contactsSlice'; // Імпорт екшену
+import { deleteContact } from '../../redux/contactsSlice'; // Імпорт екшену
 import Phone from '../../assets/phone.svg'; // Імпорт іконки телефону
 import User from '../../assets/user.svg'; // Імпорт іконки користувача
 import styles from './Contact.module.css'; // Імпорт стилів
